@@ -51,7 +51,7 @@ resource "azurerm_virtual_machine" "main" {
       password = var.admin_password
     }
     source      = "./index.html"
-    destination = "/usr/share/nginx/html/index.html"
+    destination = "/usr/share/nginx/html/index.html "
   }
 }
 
